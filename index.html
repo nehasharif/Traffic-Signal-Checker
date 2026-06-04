@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🚦 Traffic Signal Checker</h1>
+
+    <input type="text" id="color" placeholder="Enter red / yellow / green">
+
+    <button onclick="checkSignal()">Check Signal</button>
+
+    <div class="signal">
+
+        <div class="light" id="red"></div>
+        <div class="light" id="yellow"></div>
+        <div class="light" id="green"></div>
+
+    </div>
+
+    <h2 id="message">Waiting...</h2>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
